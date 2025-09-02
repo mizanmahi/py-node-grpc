@@ -1,0 +1,7 @@
+# ignore node_modules
+client/node_modules
+server/.venv
+server/__pycache__
+server/src/__pycache__
+server/.env
+client/.env
