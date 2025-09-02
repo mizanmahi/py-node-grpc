@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package agent;
+
+service AgentService {
+  rpc RunQuery (AgentQueryRequest) returns (AgentQueryResponse);
+}
+
+message AgentQueryRequest {
+  string query = 1;
+}
+
+message AgentQueryResponse {
+  string response = 1;
+}
